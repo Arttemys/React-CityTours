@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
+
+.navbar {
+    background-color: rgb(132, 255, 187);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-container{
+    position: absolute;
+    right: 10%;
+}
+
+
+.logo {
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    border: 1px solid rgb(132, 255, 187);
+    margin: 1%;
+    margin-left: 5%;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    list-style-type: none;
+
+    li {
+        padding: 6px 0;
+        margin: 3%;
+
+        a {
+            --fill-color: #000;
+            position: relative;
+            display: block;
+            padding: 4px 0;
+            font: 700 2.5rem Raleway, sans-serif;
+            text-decoration: none;
+            text-transform: uppercase;
+            -webkit-text-stroke: 2px var(--fill-color);
+            background: linear-gradient(var(--fill-color) 0 100%) left / 0 no-repeat;
+            color: transparent;
+            background-clip: text;
+            transition: 0.5s linear;
+
+            &:hover {
+                background-size: 100%;
+            }
+        }
+    }
+}
+
