@@ -1,7 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:400,400i,700");
 
+
+
 .navbar {
-    background-color: rgb(132, 255, 187);
+    --backgrounMain: #000;
+    background-color: var(--backgrounMain) ; 
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -17,7 +20,7 @@
     height: 100px;
     width: 100px;
     border-radius: 100%;
-    border: 1px solid rgb(132, 255, 187);
+    border: 1px solid var(--backgrounMain);
     margin: 1%;
     margin-left: 5%;
 }
@@ -33,7 +36,7 @@ ul {
         margin: 3%;
 
         a {
-            --fill-color: #000;
+            --fill-color: #fff;
             position: relative;
             display: block;
             padding: 4px 0;

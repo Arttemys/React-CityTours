@@ -1,0 +1,13 @@
+.background {
+    position: absolute;
+    top: 18%;
+    left: -10%;
+    height: 82%;
+    width: 110%;
+    background-image: url(https://assets.imgix.net/unsplash/mountains.jpg?h=750&dpr=2&cs=tinysrgb&auto=compress&w=1260);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-filter: blur(15px);
+    filter: blur(15px);
+}

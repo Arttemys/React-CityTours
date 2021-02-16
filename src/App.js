@@ -5,6 +5,7 @@ import TourList from './Components/TourList/TourList';
 function App() {
   return (
     <div className="App">
+      <div className="background"></div>
      <NavBar />
      <TourList />
     </div>
